@@ -1,0 +1,90 @@
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: #F4F4F2;
+    border-bottom: 1px solid black;
+    
+}
+.App-logo {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;   
+}
+.login{
+    font-size: 16pt;
+    font-family: "sweet-sans-pro", sans-serif;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.login-form {
+    display: block;
+    margin-right: 20px;
+}
+.login-form-field{
+    font-family: "sweet-sans-pro", sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    box-sizing: border-box;
+    border: none; /* Remove default border */
+    background-color: transparent;
+    border-bottom: 1px solid black; /* Add bottom border */
+    
+    margin: 0 10px;
+}
+.login-button{
+    font-family: "sweet-sans-pro", sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    text-transform: uppercase;
+    border: 1px solid black; /* Add bottom border */
+    background-color: #DDD3BD;
+    margin: 5px 10px;
+    padding: 0 15px;
+}
+@media screen and (max-width: 720px){
+    .login{
+        margin-right: 2px;
+        max-width: 100%;
+        width: 40vw;
+        height: auto;
+    }
+    .login-form {
+        display: block;
+        margin-right: 0;
+        max-width: 100%;
+        width: 40vw;
+    }
+    .login-form-field{
+        font-size: 12pt;
+        margin: 4px 3px;
+    }
+    .login-button{
+        font-size: 12pt;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 450px){
+    .login{
+        margin-right: 2px;
+        max-width: 100%;
+        width: 40vw;
+    }
+    .login-form {
+        display: block;
+        margin-right: 0;
+        max-width: 100%;
+        width: 50vw;
+    }
+    .login-form-field{
+        font-size: 10pt;
+        margin: 3px 0;
+    }
+    .login-button{
+        font-size: 10pt;
+        margin-top: 5px;
+    }
+}
